@@ -1,0 +1,107 @@
+header{
+background-color: darkgray;
+padding: 5px;
+border: 3px solid rgb(0, 0, 0);
+display: flex;
+font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    color: black;
+}
+nav{
+    padding-top: 20px;
+    padding-left: 410px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    padding: 20px;
+    color: darkslategray;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1457px;
+    height: 110px;
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    color: gray;
+    background-color:rgb(22, 21, 21);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    text-align: center;
+    margin-top: -100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+p{
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 23px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+pre{
+    margin-top: -40px;
+    font-size: 18px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+    font-family:Arial, Helvetica, sans-serif;
+}
+class{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+li{
+    font-size: 20px;
+    padding: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+    color: grey;
+    background-color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    header{
+        flex-direction:column;
+        background-color: darkgray;
+        height: 12vh;
+        width: 100vw;
+        text-align: center;
+    }
+    h2{
+        padding: 20px;
+    }
+    nav{
+        padding-left: 10px;
+        margin-top: -35vw;
+        width: 140vw;
+        flex-direction:column;
+        display: flex;
+        padding: 13px;
+        font-size: 18px;
+        line-height: 0px;
+        
+    }
+    h1{
+        padding-right:200px;
+        font-size: 6vw;
+    }
+    .center{
+        width: 390px;
+        height: 320px;
+    }
+    h3{
+        margin-top: -300px;
+    }
+
+  }
